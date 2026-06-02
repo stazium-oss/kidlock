@@ -1,0 +1,8 @@
+# KidLock Agent dependencies
+# Install with: pip install -r requirements.txt
+
+# Windows service support (optional but recommended)
+pywin32>=306
+
+# No other runtime dependencies — uses only stdlib:
+# ctypes, subprocess, json, logging, datetime, pathlib, time
