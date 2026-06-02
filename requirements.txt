@@ -1,8 +1,9 @@
-# KidLock Agent dependencies
-# Install with: pip install -r requirements.txt
+# KidLock — все зависимости
 
-# Windows service support (optional but recommended)
+# Этап 1: Windows-сервис
 pywin32>=306
 
-# No other runtime dependencies — uses only stdlib:
-# ctypes, subprocess, json, logging, datetime, pathlib, time
+# Этап 2: веб-сервер
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.0.0
